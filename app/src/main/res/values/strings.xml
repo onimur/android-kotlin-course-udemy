@@ -13,4 +13,6 @@
     <string name="tv_total_spend">Your total spend will be:</string>
     <string name="project_mytrip">MyTrip</string>
     <string name="project_motivation">Motivation</string>
+    <string name="et_enter_name">Enter your name</string>
+    <string name="btn_save">Save</string>
 </resources>

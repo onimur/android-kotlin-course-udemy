@@ -16,4 +16,6 @@
     <string name="project_motivation">Motivation</string>
     <string name="btn_save">Salvar</string>
     <string name="et_enter_name">Informe seu nome</string>
+    <string name="btn_new_phrase">Nova frase</string>
+    <string name="tv_phrase">Frase</string>
 </resources>

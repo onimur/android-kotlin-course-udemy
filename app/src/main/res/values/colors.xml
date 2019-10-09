@@ -6,6 +6,9 @@
     <color name="colorLightGray">#f0f0f0</color>
     <color name="colorDarkGray">#d2d2d2</color>
     <color name="colorText">#606060</color>
-    <color name="ColorLightRed">#fd6a6a</color>
+    <color name="colorLightRed">#fd6a6a</color>
+
+    <color name="menuItemSelected">#FFFFFF</color>
+    <color name="menuItemUnselected">#cecece</color>
 
 </resources>

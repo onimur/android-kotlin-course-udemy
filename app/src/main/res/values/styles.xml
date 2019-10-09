@@ -45,7 +45,7 @@
         <item name="android:gravity">center</item>
         <item name="android:textSize">35sp</item>
         <item name="android:textAllCaps">true</item>
-        <item name="android:textColor">@color/ColorLightRed</item>
+        <item name="android:textColor">@color/colorLightRed</item>
     </style>
 
     <style name="ButtonMainTheme" parent="AppTheme">
@@ -63,6 +63,11 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
 
     </style>
 

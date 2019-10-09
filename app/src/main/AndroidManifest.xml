@@ -10,14 +10,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity" android:theme="@style/FullScreenTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/FullScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".motivation.MotivationActivity" />
+        <activity
+            android:name=".motivation.MotivationActivity"
+            android:theme="@style/NoActionBar" />
         <activity android:name=".mytrip.MyTripActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

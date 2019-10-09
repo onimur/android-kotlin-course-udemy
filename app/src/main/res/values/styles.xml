@@ -48,4 +48,15 @@
         <item name="android:textColor">@color/ColorLightRed</item>
     </style>
 
+    <style name="ButtonMainTheme" parent="AppTheme">
+        <item name="android:background">@drawable/round_btn</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorLightGray</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>

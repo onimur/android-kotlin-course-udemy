@@ -6,6 +6,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimaryDark" />
+
     <EditText
         android:id="@+id/etDistance"
         style="@style/EditTextTheme"
@@ -53,11 +58,9 @@
         android:text="@string/textview_price" />
 
 
-
     <Button
         android:id="@+id/btnCalculate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ButtonMainTheme"
         android:text="@string/btn_calculate" />
 
 </LinearLayout>

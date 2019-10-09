@@ -1,66 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@color/colorLightGray"
     tools:context=".MainActivity">
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="3dp"
-        android:background="@color/colorPrimaryDark" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/etDistance"
-        style="@style/EditTextTheme"
-        android:autofillHints="@string/distance"
-        android:background="@drawable/round_et"
-        android:hint="@string/distance"
-        android:inputType="numberDecimal"
-        tools:targetApi="o" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:background="@color/colorPrimaryDark" />
 
-    <TextView
-        style="@style/TextViewDescriptionThemeLight"
-        android:text="@string/tv_total_miles" />
+        <EditText
+            android:id="@+id/etDistance"
+            style="@style/EditTextTheme"
+            android:autofillHints="@string/distance"
+            android:background="@drawable/round_et"
+            android:hint="@string/distance"
+            android:inputType="numberDecimal"
+            tools:targetApi="o" />
 
-    <EditText
-        android:id="@+id/etPrice"
-        style="@style/EditTextTheme"
-        android:autofillHints="@string/price"
-        android:hint="@string/price"
-        android:inputType="numberDecimal"
-        tools:targetApi="o" />
+        <TextView
+            style="@style/TextViewDescriptionThemeLight"
+            android:text="@string/tv_total_miles" />
 
-    <TextView
-        style="@style/TextViewDescriptionThemeLight"
-        android:text="@string/tv_price_liter" />
+        <EditText
+            android:id="@+id/etPrice"
+            style="@style/EditTextTheme"
+            android:autofillHints="@string/price"
+            android:hint="@string/price"
+            android:inputType="numberDecimal"
+            tools:targetApi="o" />
 
-    <EditText
-        android:id="@+id/etAutonomy"
-        style="@style/EditTextTheme"
-        android:autofillHints="@string/autonomy"
-        android:hint="@string/autonomy"
-        android:inputType="numberDecimal"
-        tools:targetApi="o" />
+        <TextView
+            style="@style/TextViewDescriptionThemeLight"
+            android:text="@string/tv_price_liter" />
 
-    <TextView
-        style="@style/TextViewDescriptionThemeLight"
-        android:text="@string/tv_miles_per_liter" />
+        <EditText
+            android:id="@+id/etAutonomy"
+            style="@style/EditTextTheme"
+            android:autofillHints="@string/autonomy"
+            android:hint="@string/autonomy"
+            android:inputType="numberDecimal"
+            tools:targetApi="o" />
 
-    <TextView
-        style="@style/TextViewDescriptionThemeDark"
-        android:text="@string/tv_total_spend" />
+        <TextView
+            style="@style/TextViewDescriptionThemeLight"
+            android:text="@string/tv_miles_per_liter" />
 
-    <TextView
-        android:id="@+id/tvResult"
-        style="@style/TextViewResultTheme"
-        android:text="@string/textview_price" />
+        <TextView
+            style="@style/TextViewDescriptionThemeDark"
+            android:text="@string/tv_total_spend" />
 
+        <TextView
+            android:id="@+id/tvResult"
+            style="@style/TextViewResultTheme"
+            android:text="@string/textview_price" />
 
-    <Button
-        android:id="@+id/btnCalculate"
-        style="@style/ButtonMainTheme"
-        android:text="@string/btn_calculate" />
+        <Button
+            android:id="@+id/btnCalculate"
+            style="@style/ButtonMainTheme"
+            android:text="@string/btn_calculate" />
+    </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

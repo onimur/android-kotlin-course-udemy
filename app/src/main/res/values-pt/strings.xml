@@ -6,4 +6,5 @@
     <string name="autonomy">Autonomia</string>
     <string name="textview_price">R$ 0,00</string>
     <string name="btn_calculate">Calcular</string>
+    <string name="toast_valid_values">Informe valores válidos</string>
 </resources>

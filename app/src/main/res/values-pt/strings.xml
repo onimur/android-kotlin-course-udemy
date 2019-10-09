@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CourseAndroidKotlinUdemy</string>
+    <string name="distance">Distância</string>
+    <string name="price">Preço</string>
+    <string name="autonomy">Autonomia</string>
+    <string name="textview_price">R$ 0,00</string>
+    <string name="btn_calculate">Calcular</string>
+</resources>

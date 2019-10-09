@@ -11,4 +11,6 @@
     <string name="tv_price_liter">Price per liter</string>
     <string name="tv_miles_per_liter">Miles per liter</string>
     <string name="tv_total_spend">Your total spend will be:</string>
+    <string name="project_mytrip">MyTrip</string>
+    <string name="project_motivation">Motivation</string>
 </resources>

@@ -8,17 +8,16 @@
 
     <EditText
         android:id="@+id/etDistance"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/EditTextTheme"
         android:autofillHints="@string/distance"
+        android:background="@drawable/round_et"
         android:hint="@string/distance"
         android:inputType="numberDecimal"
         tools:targetApi="o" />
 
     <EditText
         android:id="@+id/etPrice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/EditTextTheme"
         android:autofillHints="@string/price"
         android:hint="@string/price"
         android:inputType="numberDecimal"
@@ -26,8 +25,7 @@
 
     <EditText
         android:id="@+id/etAutonomy"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/EditTextTheme"
         android:autofillHints="@string/autonomy"
         android:hint="@string/autonomy"
         android:inputType="numberDecimal"

@@ -15,4 +15,7 @@
     <string name="project_motivation">Motivation</string>
     <string name="et_enter_name">Enter your name</string>
     <string name="btn_save">Save</string>
+    <string name="tv_user">User</string>
+    <string name="tv_phrase">Phrase</string>
+    <string name="btn_new_phrase">New phrase</string>
 </resources>

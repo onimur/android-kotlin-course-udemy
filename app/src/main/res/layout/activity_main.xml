@@ -15,6 +15,10 @@
         android:inputType="numberDecimal"
         tools:targetApi="o" />
 
+    <TextView
+        style="@style/TextViewDescriptionThemeLight"
+        android:text="@string/tv_total_miles" />
+
     <EditText
         android:id="@+id/etPrice"
         style="@style/EditTextTheme"
@@ -22,6 +26,10 @@
         android:hint="@string/price"
         android:inputType="numberDecimal"
         tools:targetApi="o" />
+
+    <TextView
+        style="@style/TextViewDescriptionThemeLight"
+        android:text="@string/tv_price_liter" />
 
     <EditText
         android:id="@+id/etAutonomy"
@@ -32,10 +40,19 @@
         tools:targetApi="o" />
 
     <TextView
+        style="@style/TextViewDescriptionThemeLight"
+        android:text="@string/tv_miles_per_liter" />
+
+    <TextView
+        style="@style/TextViewDescriptionThemeDark"
+        android:text="@string/tv_total_spend" />
+
+    <TextView
         android:id="@+id/tvResult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextViewResultTheme"
         android:text="@string/textview_price" />
+
+
 
     <Button
         android:id="@+id/btnCalculate"

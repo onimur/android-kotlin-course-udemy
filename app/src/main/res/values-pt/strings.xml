@@ -8,4 +8,8 @@
     <string name="btn_calculate">Calcular</string>
     <string name="toast_valid_values">Informe valores válidos</string>
     <string name="tv_result">Total: R$</string>
+    <string name="tv_miles_per_liter">Km por litro</string>
+    <string name="tv_price_liter">Preço por litro</string>
+    <string name="tv_total_miles">Total Km</string>
+    <string name="tv_total_spend">Seu gasto total será de:</string>
 </resources>

@@ -6,5 +6,7 @@
     <color name="colorLightGray">#f0f0f0</color>
     <color name="colorDarkGray">#d2d2d2</color>
     <color name="colorText">#606060</color>
+    <color name="ColorLightRed">#fd6a6a</color>
+
 
 </resources>

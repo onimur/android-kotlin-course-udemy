@@ -7,4 +7,8 @@
     <string name="btn_calculate">Calculate</string>
     <string name="toast_valid_values">Enter valid values</string>
     <string name="tv_result">Total: $</string>
+    <string name="tv_total_miles">Total Miles</string>
+    <string name="tv_price_liter">Price per liter</string>
+    <string name="tv_miles_per_liter">Miles per liter</string>
+    <string name="tv_total_spend">Your total spend will be:</string>
 </resources>

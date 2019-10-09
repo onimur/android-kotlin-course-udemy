@@ -3,7 +3,6 @@ package com.onimus.courseandroidkotlinudemy
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.EditText
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.NumberFormatException
@@ -30,6 +29,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun handleCalculate() {
         if (isValid()) {
             try {
+                // (distance * price) / autonomy
+                val distance = etDistance.text.toString().toFloat()
+                val price = etPrice.text.toString().toFloat()
+                val autonomy = etAutonomy.text.toString().toFloat()
+
+                val result = ((distance * price) / autonomy)
+
+                tvResult.text = ("${this.getString(R.string.tv_result)} $result")
 
             } catch (e: NumberFormatException) {
                 Toast.makeText(this, getString(R.string.toast_valid_values), Toast.LENGTH_SHORT)

@@ -9,9 +9,14 @@
     <color name="colorLightRed">#fd6a6a</color>
 
     <!-- Colors Motivation -->
-    <color name="colorMotPrimary">#0b121c</color>
-    <color name="colorMotPrimaryDark">#070b11</color>
-    <color name="colorMotAccent">#FFFFFF</color>
+    <color name="colorMotPrimary">#5AC25f</color>
+    <color name="colorMotPrimaryDark">#05a980</color>
+    <color name="colorMotAccent">#d1d762</color>
+    
+    <color name="blackOverlay">#66000000</color>
+    <color name="colorMotTextLightGray">#f9f9f9f9</color>
+    <color name="colorMotTextButton">#FFFFFF</color>
+    <color name="colorMotLine">#F5F5F5</color>
 
 
 

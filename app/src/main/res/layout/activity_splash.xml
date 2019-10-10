@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_splash"
-    tools:context=".SplashActivity">
+    tools:context=".motivation.SplashActivity">
 
     <EditText
         android:id="@+id/etName"
         android:layout_width="0dp"
         android:layout_height="73dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
         android:autofillHints="@string/et_enter_name"
         android:background="@drawable/line_et"
         android:gravity="center"
@@ -22,10 +23,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/btnSave"
         app:layout_constraintEnd_toStartOf="@+id/guideline13"
-        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline11"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.51"
+        app:layout_constraintVertical_bias="0.47000003"
         tools:targetApi="o" />
 
     <Button
@@ -46,7 +47,7 @@
         android:id="@+id/imageView4"
         android:layout_width="0dp"
         android:layout_height="190dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

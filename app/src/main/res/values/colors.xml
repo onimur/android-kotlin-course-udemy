@@ -11,7 +11,7 @@
     <!-- Colors Motivation -->
     <color name="colorMotPrimary">#5AC25f</color>
     <color name="colorMotPrimaryDark">#05a980</color>
-    <color name="colorMotAccent">#d1d762</color>
+    <color name="colorMotAccent">#6EDD1D</color>
     
     <color name="blackOverlay">#66000000</color>
     <color name="colorMotTextLightGray">#f9f9f9f9</color>

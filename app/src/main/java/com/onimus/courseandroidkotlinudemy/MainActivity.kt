@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.onimus.courseandroidkotlinudemy.motivation.MotivationActivity
+import com.onimus.courseandroidkotlinudemy.motivation.SplashActivity
 import com.onimus.courseandroidkotlinudemy.mytrip.MyTripActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             i = Intent(this, MyTripActivity::class.java)
 
         } else if (v.id == R.id.btnMotivation) {
-            i = Intent(this, MotivationActivity::class.java)
+            i = Intent(this, SplashActivity::class.java)
         }
         startActivity(i)
         finish()

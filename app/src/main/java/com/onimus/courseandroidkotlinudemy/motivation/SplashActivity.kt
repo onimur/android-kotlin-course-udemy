@@ -1,12 +1,12 @@
-package com.onimus.courseandroidkotlinudemy
+package com.onimus.courseandroidkotlinudemy.motivation
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.onimus.courseandroidkotlinudemy.motivation.MotivationActivity
-import com.onimus.courseandroidkotlinudemy.motivation.util.Constants
+import com.onimus.courseandroidkotlinudemy.MainActivity
+import com.onimus.courseandroidkotlinudemy.R
 import com.onimus.courseandroidkotlinudemy.motivation.util.Constants.KEY.SHARED_MOTIVATION
 import com.onimus.courseandroidkotlinudemy.motivation.util.SecurityPreferences
 import kotlinx.android.synthetic.main.activity_splash.*
@@ -48,8 +48,15 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
     private fun verifyUserName() {
         val userName = mSecurity.getStoredString(SHARED_MOTIVATION)
         if (userName.isNotBlank()) {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, MotivationActivity::class.java))
+            finish()
         }
         etName.setText(userName)
+    }
+
+    override fun onBackPressed() {
+        startActivity(Intent(this, MainActivity::class.java))
+        finish()
+        super.onBackPressed()
     }
 }

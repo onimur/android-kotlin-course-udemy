@@ -14,21 +14,18 @@
             android:name=".motivation.SpotActivity"
             android:theme="@style/NoActionBar" />
         <activity
-            android:name=".SplashActivity"
-            android:theme="@style/FullScreenTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name=".motivation.SplashActivity"
+            android:theme="@style/FullScreenTheme" />
         <activity
             android:name=".motivation.MotivationActivity"
             android:theme="@style/NoActionBar" />
         <activity android:name=".mytrip.MyTripActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

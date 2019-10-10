@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_splash"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/ivToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_dialog_alert" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:text="Toast custom"
+        android:textColor="@color/colorMotTextButton"
+
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

@@ -17,4 +17,9 @@
     <color name="colorMotTextLightGray">#f9f9f9f9</color>
     <color name="colorMotTextButton">#FFFFFF</color>
     <color name="colorMotLine">#F5F5F5</color>
+
+    <!-- Colors MainActivity -->
+    <color name="colorMainPrimary">#943164</color>
+    <color name="colorMainPrimaryDark">#074152</color>
+    <color name="colorMainAccent">#b4b4b4</color>
 </resources>

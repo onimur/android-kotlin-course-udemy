@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/bg_main"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -40,6 +41,18 @@
         app:layout_constraintStart_toStartOf="@+id/guideline14"
         app:layout_constraintTop_toBottomOf="@+id/btnMyTrip" />
 
+
+    <Button
+        android:id="@+id/btnComponents"
+        style="@style/ButtonMainTheme"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/project_components"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/guideline15"
+        app:layout_constraintStart_toStartOf="@+id/guideline14"
+        app:layout_constraintTop_toBottomOf="@+id/btnMotivation" />
+
     <Button
         android:id="@+id/btnNewUser"
         style="@style/ButtonMainTheme"
@@ -51,7 +64,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline15"
         app:layout_constraintStart_toStartOf="@+id/guideline14"
-        app:layout_constraintTop_toBottomOf="@+id/btnMotivation"
+        app:layout_constraintTop_toBottomOf="@+id/btnComponents"
         app:layout_constraintVertical_bias="0.92" />
 
     <androidx.constraintlayout.widget.Guideline

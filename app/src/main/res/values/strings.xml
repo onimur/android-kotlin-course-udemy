@@ -38,4 +38,5 @@
     <!-- -->
     <string name="text_hello">Hello,</string>
     <string name="bt_new_user">New user</string>
+    <string name="project_components">Components</string>
 </resources>

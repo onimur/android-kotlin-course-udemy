@@ -12,14 +12,12 @@ import java.lang.NumberFormatException
 
 class MyTripActivity : AppCompatActivity(), View.OnClickListener {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_my_trip)
 
         //var etDistance = findViewById<EditText>(R.id.etDistance)
         //etDistance
-
         btnCalculate.setOnClickListener(this)
     }
 
@@ -62,6 +60,5 @@ class MyTripActivity : AppCompatActivity(), View.OnClickListener {
         startActivity(i)
         finish()
         super.onBackPressed()
-
     }
 }

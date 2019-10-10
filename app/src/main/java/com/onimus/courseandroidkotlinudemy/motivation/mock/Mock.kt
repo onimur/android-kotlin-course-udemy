@@ -9,7 +9,6 @@ class Phrase(val description: String, val category: Int)
 
 fun Int.mRandom(): Int = Random().nextInt(this)
 
-
 class Mock(private val context: Context) {
 
     private var mListPhrases = mutableListOf<Phrase>()
@@ -30,6 +29,5 @@ class Mock(private val context: Context) {
 
     private fun getArrayList(id: Int): Array<String> {
         return context.resources.getStringArray(id)
-
     }
 }

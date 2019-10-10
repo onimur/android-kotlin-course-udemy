@@ -84,6 +84,7 @@ class MotivationActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun verifyUserName() {
-        tvUser.text = mSecurityPreferences.getStoredString(Constants.KEY.SHARED_MOTIVATION)
+        tvUser.text =
+            ("${getString(R.string.text_hello)} ${mSecurityPreferences.getStoredString(Constants.KEY.SHARED_MOTIVATION)}")
     }
 }

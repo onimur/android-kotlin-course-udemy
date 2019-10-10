@@ -35,4 +35,7 @@
     <string name="happy4">"Insanity is always doing the same thing and expecting a different result."</string>
     <string name="happy5">"Don't stop when you're tired, stop when you're done."</string>
     <string name="happy6">"What can you do now that has the biggest impact on your success?"</string>
+    <!-- -->
+    <string name="text_hello">Hello,</string>
+    <string name="bt_new_user">New user</string>
 </resources>

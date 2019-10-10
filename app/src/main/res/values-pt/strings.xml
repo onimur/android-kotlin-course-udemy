@@ -36,5 +36,8 @@
     <string name="happy4">Insanidade é fazer sempre a mesma coisa e esperar um resultado diferente.</string>
     <string name="happy5">Não pare quando estiver cansado, pare quando tiver terminado.</string>
     <string name="happy6">O que você pode fazer agora que tem o maior impacto sobre o seu sucesso?</string>
+    <string name="bt_new_user">Novo usuário</string>
+    <string name="text_hello">"Olá, "</string>
+    <!-- -->
 
 </resources>

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorMotPrimaryDark"
-    tools:context=".motivation.SpotActivity">
+    tools:context=".motivation.SpotActivity"
+    tools:ignore="ContentDescription">
 
     <TextView
         android:id="@+id/textView"

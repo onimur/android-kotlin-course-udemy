@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.onimus.courseandroidkotlinudemy.motivation.MotivationActivity
+import com.onimus.courseandroidkotlinudemy.motivation.util.Constants
 import com.onimus.courseandroidkotlinudemy.motivation.util.Constants.KEY.SHARED_MOTIVATION
 import com.onimus.courseandroidkotlinudemy.motivation.util.SecurityPreferences
 import kotlinx.android.synthetic.main.activity_splash.*
@@ -21,6 +22,7 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
         mSecurity = SecurityPreferences(this)
 
         btnSave.setOnClickListener(this)
+        verifyUserName()
     }
 
     override fun onClick(v: View) {
@@ -41,5 +43,9 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
             startActivity(i)
             finish()
         }
+    }
+
+    private fun verifyUserName() {
+       etName.setText(mSecurity.getStoredString(SHARED_MOTIVATION))
     }
 }

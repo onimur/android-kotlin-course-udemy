@@ -3,71 +3,94 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/bg_splash"
     android:layout_height="match_parent"
     tools:context=".motivation.MotivationActivity"
+    tools:targetApi="lollipop"
     tools:ignore="ContentDescription">
 
-    <LinearLayout
-        android:id="@+id/llMenuFilter"
+    <View
         android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="90dp"
+        android:elevation="1dp"
+        android:background="@color/colorMotPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="lollipop" />
 
-        <ImageView
-            android:id="@+id/ivAll"
-            android:layout_width="0dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:src="@drawable/ic_all_unselected" />
 
-        <ImageView
-            android:id="@+id/ivSun"
-            android:layout_width="0dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:src="@drawable/ic_sun_unselected" />
+    <ImageView
+        android:id="@+id/ivAll"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:elevation="2dp"
+        android:src="@drawable/ic_all_unselected"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
-        <ImageView
-            android:id="@+id/ivHappy"
-            android:layout_width="0dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:src="@drawable/ic_happy_unselected" />
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivSun"
+        android:layout_width="100dp"
+        android:elevation="2dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:src="@drawable/ic_sun_unselected"
+        app:layout_constraintEnd_toStartOf="@+id/ivHappy"
+        app:layout_constraintStart_toEndOf="@+id/ivAll"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+    <ImageView
+        android:id="@+id/ivHappy"
+        android:elevation="2dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_happy_unselected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <TextView
         android:id="@+id/tvUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tv_user"
-        app:layout_constraintBottom_toTopOf="@id/tvPhrase"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/llMenuFilter" />
+        tools:layout_editor_absoluteY="65dp" />
 
     <TextView
         android:id="@+id/tvPhrase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tv_phrase"
-        app:layout_constraintBottom_toTopOf="@id/btnNewPhrase"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvUser" />
+        tools:layout_editor_absoluteY="93dp" />
 
     <Button
         android:id="@+id/btnNewPhrase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
         android:text="@string/btn_new_phrase"
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvPhrase" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

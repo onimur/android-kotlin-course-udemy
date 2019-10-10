@@ -10,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".components.ComponentsActivity"></activity>
         <activity
             android:name=".motivation.SpotActivity"
             android:theme="@style/NoActionBar" />

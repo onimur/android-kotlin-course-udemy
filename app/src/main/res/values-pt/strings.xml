@@ -12,8 +12,8 @@
     <string name="tv_price_liter">Preço por litro</string>
     <string name="tv_total_miles">Total Km</string>
     <string name="tv_total_spend">Seu gasto total será de:</string>
-    <string name="project_mytrip">MyTrip</string>
-    <string name="project_motivation">Motivation</string>
+    <string name="project_mytrip">MinhaViagem</string>
+    <string name="project_motivation">Motivacional</string>
     <string name="btn_save">Salvar</string>
     <string name="et_enter_name">Informe seu nome</string>
     <string name="btn_new_phrase">Nova frase</string>
@@ -38,6 +38,8 @@
     <string name="happy6">O que você pode fazer agora que tem o maior impacto sobre o seu sucesso?</string>
     <string name="bt_new_user">Novo usuário</string>
     <string name="text_hello">"Olá, "</string>
+    <string name="project_components">Componentes</string>
+    <string name="toast_me">Mostra mensagem</string>
     <!-- -->
 
 </resources>

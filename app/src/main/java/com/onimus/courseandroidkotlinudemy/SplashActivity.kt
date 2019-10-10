@@ -46,6 +46,10 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun verifyUserName() {
-       etName.setText(mSecurity.getStoredString(SHARED_MOTIVATION))
+        val userName = mSecurity.getStoredString(SHARED_MOTIVATION)
+        if (userName.isNotBlank()) {
+            startActivity(Intent(this, MainActivity::class.java))
+        }
+        etName.setText(userName)
     }
 }

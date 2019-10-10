@@ -18,4 +18,21 @@
     <string name="tv_user">User</string>
     <string name="tv_phrase">Phrase</string>
     <string name="btn_new_phrase">New phrase</string>
+
+    <!--Arrays Sun -->
+    <string name="sun1">"The best way to predict the future is to invent it."</string>
+    <string name="sun2">"You lose every chance you don't take advantage of."</string>
+    <string name="sun3">"Failure is the spice that gives flavor to success."</string>
+    <string name="sun4">Until we are committed, there will be hesitation!</string>
+    <string name="sun5">"If you don't know where you want to go, any path will do."</string>
+    <string name="sun6">"If you believe it makes all the difference."</string>
+    <string name="sun7">"Risks must be taken, because the greatest danger is to risk nothing!"</string>
+
+    <!--Arrays Happy -->
+    <string name="happy1">"Not knowing it was impossible, went there and did it."</string>
+    <string name="happy2">"You are not defeated when you lose, you are defeated when you give up!"</string>
+    <string name="happy3">"When it's darker we see more stars!"</string>
+    <string name="happy4">"Insanity is always doing the same thing and expecting a different result."</string>
+    <string name="happy5">"Don't stop when you're tired, stop when you're done."</string>
+    <string name="happy6">"What can you do now that has the biggest impact on your success?"</string>
 </resources>

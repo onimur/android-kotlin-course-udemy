@@ -8,7 +8,4 @@
     <color name="colorText">#606060</color>
     <color name="colorLightRed">#fd6a6a</color>
 
-    <color name="menuItemSelected">#FFFFFF</color>
-    <color name="menuItemUnselected">#cecece</color>
-
 </resources>

@@ -19,4 +19,22 @@
     <string name="btn_new_phrase">Nova frase</string>
     <string name="tv_phrase">Frase</string>
     <string name="tv_user">Usuário</string>
+
+    <!--Arrays Sun -->
+    <string name="sun1">A melhor maneira de prever o futuro é inventá-lo.</string>
+    <string name="sun2">Você perde todas as chances que você não aproveita.</string>
+    <string name="sun3">Fracasso é o condimento que dá sabor ao sucesso.</string>
+    <string name="sun4">Enquanto não estivermos comprometidos, haverá hesitação!</string>
+    <string name="sun5">Se você não sabe onde quer ir, qualquer caminho serve.</string>
+    <string name="sun6">Se você acredita, faz toda a diferença.</string>
+    <string name="sun7">Riscos devem ser corridos, porque o maior perigo é não arriscar nada!</string>
+
+    <!--Arrays Happy -->
+    <string name="happy1">Não sabendo que era impossível, foi lá e fez.</string>
+    <string name="happy2">Você não é derrotado quando perde, você é derrotado quando desiste!</string>
+    <string name="happy3">Quando está mais escuro, vemos mais estrelas!</string>
+    <string name="happy4">Insanidade é fazer sempre a mesma coisa e esperar um resultado diferente.</string>
+    <string name="happy5">Não pare quando estiver cansado, pare quando tiver terminado.</string>
+    <string name="happy6">O que você pode fazer agora que tem o maior impacto sobre o seu sucesso?</string>
+
 </resources>

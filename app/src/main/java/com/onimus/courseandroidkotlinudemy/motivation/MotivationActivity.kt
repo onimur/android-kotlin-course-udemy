@@ -6,21 +6,26 @@ import android.os.Bundle
 import android.view.View
 import com.onimus.courseandroidkotlinudemy.MainActivity
 import com.onimus.courseandroidkotlinudemy.R
+import com.onimus.courseandroidkotlinudemy.motivation.mock.Mock
 import com.onimus.courseandroidkotlinudemy.motivation.util.Constants
 import kotlinx.android.synthetic.main.activity_motivation.*
-import kotlinx.android.synthetic.main.activity_splash.*
 
 class MotivationActivity : AppCompatActivity(), View.OnClickListener {
 
     private var mFilter = Constants.PHRASES.ALL
+    private lateinit var mMock: Mock
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_motivation)
 
+        mMock = Mock(this)
+
         setListeners()
 
         handleFilter(R.id.ivAll)
+        refreshPhrase()
     }
 
     override fun onBackPressed() {
@@ -34,7 +39,7 @@ class MotivationActivity : AppCompatActivity(), View.OnClickListener {
         val listId = listOf(R.id.ivAll, R.id.ivHappy, R.id.ivSun)
         if (v.id in listId) {
             handleFilter(v.id)
-        } else {
+        } else if (v.id == R.id.btnNewPhrase) {
             refreshPhrase()
         }
     }
@@ -69,6 +74,7 @@ class MotivationActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun refreshPhrase() {
+        tvPhrase.text = mMock.getPhrases(mFilter)
 
     }
 }

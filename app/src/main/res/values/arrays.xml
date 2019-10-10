@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="phrasesArraySun">
+
+        <item>The best way to predict the future is to invent it.</item>
+        <item>You lose every chance you don't take advantage of.</item>
+        <item>Failure is the spice that gives flavor to success.</item>
+        <item>Until we are committed, there will be hesitation!</item>
+        <item>If you don't know where you want to go, any path will do.</item>
+        <item>If you believe it makes all the difference.</item>
+        <item>Risks must be taken, because the greatest danger is to risk nothing!</item>
+
+    </string-array>
+
+    <string-array name="phrasesArrayHappy">
+
+        <item>Not knowing it was impossible, went there and did it.</item>
+        <item>You are not defeated when you lose, you are defeated when you give up!</item>
+        <item>When it's darker we see more stars!</item>
+        <item>Insanity is always doing the same thing and expecting a different result.</item>
+        <item>Don't stop when you're tired, stop when you're done.</item>
+        <item>What can you do now that has the biggest impact on your success?</item>
+
+    </string-array>
+</resources>

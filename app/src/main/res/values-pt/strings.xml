@@ -18,4 +18,5 @@
     <string name="et_enter_name">Informe seu nome</string>
     <string name="btn_new_phrase">Nova frase</string>
     <string name="tv_phrase">Frase</string>
+    <string name="tv_user">Usuário</string>
 </resources>

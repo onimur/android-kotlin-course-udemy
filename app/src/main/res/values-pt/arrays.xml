@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="phrasesArraySun">
+
+        <item>A melhor maneira de prever o futuro é inventá-lo.</item>
+        <item>Você perde todas as chances que você não aproveita.</item>
+        <item>Fracasso é o condimento que dá sabor ao sucesso.</item>
+        <item>Enquanto não estivermos comprometidos, haverá hesitação!</item>
+        <item>Se você não sabe onde quer ir, qualquer caminho serve.</item>
+        <item> Se você acredita, faz toda a diferença.</item>
+        <item>Riscos devem ser corridos, porque o maior perigo é não arriscar nada!</item>
+
+    </string-array>
+
+    <string-array name="phrasesArrayHappy">
+
+        <item>Não sabendo que era impossível, foi lá e fez.</item>
+        <item>Você não é derrotado quando perde, você é derrotado quando desiste!</item>
+        <item>Quando está mais escuro, vemos mais estrelas!</item>
+        <item>Insanidade é fazer sempre a mesma coisa e esperar um resultado diferente.</item>
+        <item>Não pare quando estiver cansado, pare quando tiver terminado.</item>
+        <item>O que você pode fazer agora que tem o maior impacto sobre o seu sucesso?</item>
+
+    </string-array>
+</resources>

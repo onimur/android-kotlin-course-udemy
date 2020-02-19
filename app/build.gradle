@@ -20,6 +20,10 @@ android {
         }
     }
 }
+//resolve conflict
+configurations.all {
+    resolutionStrategy.force "junit:junit:4.13"
+}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])

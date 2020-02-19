@@ -2,9 +2,9 @@ package com.onimus.courseandroidkotlinudemy
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.onimus.courseandroidkotlinudemy.components.ComponentsActivity
 import com.onimus.courseandroidkotlinudemy.motivation.SplashActivity
 import com.onimus.courseandroidkotlinudemy.motivation.util.Constants

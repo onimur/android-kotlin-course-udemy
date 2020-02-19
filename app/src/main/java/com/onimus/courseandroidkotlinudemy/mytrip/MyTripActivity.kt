@@ -1,14 +1,13 @@
 package com.onimus.courseandroidkotlinudemy.mytrip
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.onimus.courseandroidkotlinudemy.MainActivity
 import com.onimus.courseandroidkotlinudemy.R
 import kotlinx.android.synthetic.main.activity_my_trip.*
-import java.lang.NumberFormatException
 
 class MyTripActivity : AppCompatActivity(), View.OnClickListener {
 

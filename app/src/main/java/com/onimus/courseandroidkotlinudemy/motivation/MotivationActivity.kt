@@ -1,9 +1,9 @@
 package com.onimus.courseandroidkotlinudemy.motivation
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.onimus.courseandroidkotlinudemy.MainActivity
 import com.onimus.courseandroidkotlinudemy.R
 import com.onimus.courseandroidkotlinudemy.motivation.mock.Mock

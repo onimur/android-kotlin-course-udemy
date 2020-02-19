@@ -1,12 +1,13 @@
 package com.onimus.courseandroidkotlinudemy.components
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.onimus.courseandroidkotlinudemy.MainActivity
 import com.onimus.courseandroidkotlinudemy.R
 import kotlinx.android.synthetic.main.activity_components.*
@@ -19,6 +20,7 @@ class ComponentsActivity : AppCompatActivity(), View.OnClickListener {
         setListeners()
     }
 
+    @SuppressLint("InflateParams")
     override fun onClick(v: View) {
         if (v.id == R.id.btnToastMe) {
             //val toast =  Toast.makeText(this, "Toast Notification!", Toast.LENGTH_LONG)
